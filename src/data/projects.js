@@ -10,11 +10,12 @@ import project8 from '../assets/project-8.jpg';
 export const projects = [
     {
         id: 1,
-        title: "Floor Tile Configurator",
-        description: "Interactive 3D configurator for floor tiles.",
-        url: "https://floortileconfigurator.netlify.app/",
-        tags: ["Three.js", "React", "Configurator"],
-        image: project1
+        title: "UPVC Configurator",
+        description: "Full-stack UPVC door configurator application.",
+        url: "https://configurator-backend-1062071494422.europe-west1.run.app/",
+        tags: ["Full Stack", "Configurator", "Complex"],
+        note: "Credentials available upon request",
+        image: project6
     },
     {
         id: 2,
@@ -25,12 +26,13 @@ export const projects = [
         image: project2
     },
     {
+
         id: 3,
-        title: "Rad Manatee",
-        description: "Creative 3D experiment.",
-        url: "https://rad-manatee-de8efb.netlify.app/",
-        tags: ["Experiment", "Three.js"],
-        image: project3
+        title: "Floor Tile Configurator",
+        description: "Interactive 3D configurator for floor tiles.",
+        url: "https://floortileconfigurator.netlify.app/",
+        tags: ["Three.js", "React", "Configurator"],
+        image: project1
     },
     {
         id: 4,
@@ -42,6 +44,15 @@ export const projects = [
     },
     {
         id: 5,
+        title: "Rad Manatee",
+        description: "Creative 3D experiment.",
+        url: "https://rad-manatee-de8efb.netlify.app/",
+        tags: ["Experiment", "Three.js"],
+        image: project3
+    },
+
+    {
+        id: 6,
         title: "Visualization",
         description: "Architectural visualization demo.",
         url: "https://vizualization.netlify.app/",
@@ -49,7 +60,7 @@ export const projects = [
         image: project5
     },
     {
-        id: 6,
+        id: 7,
         title: "Color 3D",
         description: "3D Color manipulation tool.",
         url: "https://color3d.netlify.app/",
@@ -57,20 +68,11 @@ export const projects = [
         image: project8
     },
     {
-        id: 7,
+        id: 8,
         title: "Bicycle Animation",
         description: "Interactive 3D bicycle animation.",
         url: "https://bicycle-anim.netlify.app/",
         tags: ["Animation", "Vehicle"],
         image: project7
-    },
-    {
-        id: 8,
-        title: "UPVC Configurator",
-        description: "Full-stack UPVC door configurator application.",
-        url: "https://configurator-backend-y1kj.onrender.com",
-        tags: ["Full Stack", "Configurator", "Complex"],
-        note: "Credentials available upon request",
-        image: project6
     }
 ];
