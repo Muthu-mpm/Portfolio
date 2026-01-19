@@ -1,4 +1,5 @@
 import project1 from '../assets/project-1.png';
+import project21 from '../assets/project-2.jpg';
 import project2 from '../assets/project-2.png';
 import project3 from '../assets/project-3.png';
 import project4 from '../assets/project-4.png';
@@ -19,6 +20,15 @@ export const projects = [
     },
     {
         id: 2,
+        title: "3D Fabrics",
+        description: "3D interactive saree configurator and viewer.",
+        url: "https://oynacloud-1062071494422.us-east1.run.app/",
+        tags: ["3D", "Configurator", "Fashion"],
+        image: project21,
+        imagePosition: 'top'
+    },
+    {
+        id: 3,
         title: "Modern Furniture 3D",
         description: "High-fidelity 3D furniture showcase.",
         url: "https://modernfurniture3d.netlify.app/",
@@ -26,8 +36,7 @@ export const projects = [
         image: project2
     },
     {
-
-        id: 3,
+        id: 4,
         title: "Floor Tile Configurator",
         description: "Interactive 3D configurator for floor tiles.",
         url: "https://floortileconfigurator.netlify.app/",
@@ -35,7 +44,7 @@ export const projects = [
         image: project1
     },
     {
-        id: 4,
+        id: 5,
         title: "BIM Viewer",
         description: "Browser-based BIM model viewer.",
         url: "https://bim-viewer-html.netlify.app/#",
@@ -43,16 +52,15 @@ export const projects = [
         image: project4
     },
     {
-        id: 5,
+        id: 6,
         title: "Rad Manatee",
         description: "Creative 3D experiment.",
         url: "https://rad-manatee-de8efb.netlify.app/",
         tags: ["Experiment", "Three.js"],
         image: project3
     },
-
     {
-        id: 6,
+        id: 7,
         title: "Visualization",
         description: "Architectural visualization demo.",
         url: "https://vizualization.netlify.app/",
@@ -60,7 +68,7 @@ export const projects = [
         image: project5
     },
     {
-        id: 7,
+        id: 8,
         title: "Color 3D",
         description: "3D Color manipulation tool.",
         url: "https://color3d.netlify.app/",
@@ -68,7 +76,7 @@ export const projects = [
         image: project8
     },
     {
-        id: 8,
+        id: 9,
         title: "Bicycle Animation",
         description: "Interactive 3D bicycle animation.",
         url: "https://bicycle-anim.netlify.app/",
